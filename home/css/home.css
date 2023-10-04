@@ -1,0 +1,463 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: jost;
+  background-color: #181818;
+
+}
+
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  margin: 0;
+  opacity: 0.9;
+  
+
+}
+
+
+.imgs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+#video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; 
+  overflow: hidden;
+
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(81, 0, 89, 0.1); /* Purple overlay with 0.5 opacity */
+}
+
+.chargingtest,
+.revolutiontext {
+  position: absolute; /* Position text absolutely within the container */
+  bottom: 0; 
+}
+
+.chargingtest {
+  left: 0; 
+  font-size: 30px;
+  color: black;
+margin-left: 1%;
+margin-bottom: 1%;
+}
+
+.revolutiontext {
+  right: 0; 
+  font-size: 30px;
+  color: #b34b4b;
+  padding-right: 1%;
+  padding-bottom: 1%;
+}
+
+
+
+
+.warrior_vamana{
+  display: flex; /* Use flexbox to arrange children side by side */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; 
+  max-width: 100%; /* Add this line to limit the container width */
+  overflow: hidden; 
+
+}
+
+.warrior {
+  text-align: center; 
+
+}
+
+
+.vamana {
+  text-align: center;
+}
+
+
+.glx_etractor{
+  display: flex;
+  background-color: #181818; 
+}
+
+.glx {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.etractor {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+.ox1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+
+.chargingte{
+
+  font-size: 30px;
+  color: #fff;
+  padding-left: 5%;
+  padding-bottom: 1%;
+  
+}
+.revolutionte {
+  font-size: 30px;
+  color: #691c1c;
+  padding-right: 1%;
+  padding-bottom: 1%;
+}
+
+.chargingtes{
+  position: absolute; /* Position text absolutely within the container */
+top: 50%;
+  font-size: 30px;
+  color: #fff;
+  padding-left: 1%;
+  padding-bottom: 1%;
+}
+.revolutiontex {
+  position: absolute; /* Position text absolutely within the container */
+right: 0;
+  top: 50%;
+  font-size: 30px;
+  color: #fff;
+  padding-right: 1%;
+  padding-bottom: 1%;
+}
+
+.middle-text {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  opacity: 1;
+  z-index: 10;
+  margin-top: auto; /* Push the middle text to the center */
+  
+}
+
+.white {
+  display: flex;
+  justify-content: center; /* Center horizontally within parent */
+  align-items: center; 
+  padding-bottom: 5%;
+}
+.whites {
+  display: flex;
+  justify-content: center; /* Center horizontally within parent */
+  align-items: center; 
+  padding-top: 5%;
+}
+
+.white-line {
+  width: 90%;
+  height: 2px; /* Adjust the line height as needed */
+  background-color: #FCEA38;
+}
+
+
+
+.aboutuscontainer{
+  text-align: center;
+
+  }
+.sitemap{
+  font-size: 1px;
+  color: #181818;
+}
+
+
+  .aboutheading {
+    color: #ececec;
+    font-size: 36px;
+    margin: 0;
+  }
+
+
+.phonescreen{
+  display:none;
+  
+}
+.mainscreen{
+  display:block;
+}
+
+.box-image {
+  max-width: 100%;
+  height: 100%;
+  width: 80%;
+}
+
+.imagetex{
+  color: #ececec;
+  font-size: 30px;
+}
+.imagetext{
+  color: #ececec;
+  padding-bottom: 10%;
+  font-size: 30px;
+}
+
+.imaget{
+  color: #ececec;
+  padding-bottom: 6%;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.imagetex{
+  color: #ececec;
+  font-size: 30px;
+}
+
+.ox{
+  display: flex;
+  text-align: center; 
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.oximage {
+  max-width: 100%;
+  width: 90%;
+  padding-top: 1%;
+
+}
+
+.bullworkcenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+.bullworkcente{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+.bullworkcent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  flex-direction: row;
+}
+
+.bullworkspace{
+
+
+  color: white;
+  text-align: center; /* Left-align the text inside the div */
+  margin: 0 auto; /* Center the entire div horizontally */
+
+}
+
+.bullworkdiv{
+  padding: 5%;
+}
+
+.spacetext{
+   font-size: 30px;
+   margin: 0;
+   padding-top: 1%;
+}
+
+
+@media screen and (max-width: 1200px) {
+ 
+  #myVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    z-index: -1;
+    margin: 0;
+  }
+
+  #video-container {
+    position: relative;
+    max-width: 100%;
+    height: 50vh; 
+    overflow: hidden;
+  }
+  .imaget{
+    color: #ececec;
+    padding-bottom: 6%;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .imagetext{
+    color: #ececec;
+    padding: 2%;
+    font-size: 20px;
+  }
+  .bullworkcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48vh;
+  }
+  
+  .bullworkspace{
+    max-width: 70%;
+    color: white;
+    text-align: center; /* Left-align the text inside the div */
+    margin: 0 auto; /* Center the entire div horizontally */
+  
+  }
+  .bullworkcent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh; 
+    }
+
+  .bullworkcente{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+  }
+  
+  .spacetext{
+     font-size: 20px;
+     margin: 0;
+     padding-top: 5%;
+  }
+
+  .oximage {
+    max-width: 100%;
+    width: 90%;
+    padding-top: 10%;
+  
+  }
+    
+  .box-image {
+    max-width: 100%;
+    height: 100%;
+    width: 80%;
+    padding-top: 8%;
+  }
+
+.white {
+  display: flex;
+  justify-content: center; /* Center horizontally within parent */
+  align-items: center; 
+  padding-bottom: 10%;
+}
+.whites {
+  display: flex;
+  justify-content: center; /* Center horizontally within parent */
+  align-items: center; 
+  padding-top: 10%;
+}
+  .chargingtest {
+    left: 0; 
+    font-size: 10px;
+    color: #181818;
+    margin-left: 1%;
+    margin-bottom: 1%;
+  
+  }
+  .chargingte{
+
+    font-size: 20px;
+    color: #fff;
+    padding-left: 5%;
+    padding-bottom: 1%;
+  }
+  .chargingtes{
+    position: absolute; /* Position text absolutely within the container */
+    top: 50%;
+    font-size: 20px;
+    color: #fff;
+    padding-left: 1%;
+    padding-bottom: 1%;
+  }
+  .revolutiontex {
+    position: absolute; /* Position text absolutely within the container */
+  right: 0;
+    top: 50%;
+    font-size: 20px;
+    color: #fff;
+    padding-right: 1%;
+    padding-bottom: 1%;
+  }
+
+  .products {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    display:block;
+  
+    
+  }
+  .phonescreen{
+    display:block;
+    
+  }
+  .mainscreen{
+    display:none;
+  }
+  
+.revolutiontext {
+  right: 0; 
+  font-size: 20px;
+  color: #fff;
+  padding-right: 1%;
+  padding-bottom: 1%;
+  
+}
+.ox_text{
+  color: #ececec;
+  padding: 2%;
+  padding-bottom: 10%;
+  border: #ececec solid 2px;
+  /* border: #FCEA38 solid 2px; */
+
+}
+
+
+
+}

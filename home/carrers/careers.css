@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #181818;
+  font-family: jost;
+}
+
+.bullworkcenter{
+  display: flex;
+  align-items: center;
+  height: auto;
+  
+}
+
+.bullworkspace{
+  max-width: 50%;
+    color: white;
+    text-align: left; /* Left-align the text inside the div */
+    margin: 0 auto;
+    padding-bottom: 2%;
+    
+  }
+  .bullworkspac{
+    max-width: 70%;
+      color: white;
+      text-align: center; /* Left-align the text inside the div */
+      margin: 0 auto;
+      padding-bottom: 2%;
+      
+    }
+
+.headtext{
+      text-align: center; /* Left-align the text inside the div */
+
+  font-size: 30px;
+  margin: 0;
+  padding: 5px;
+}
+
+.headtex{
+  text-align: center; /* Left-align the text inside the div */
+
+font-size: 30px;
+margin: 0;
+padding: 5px;
+font-weight: 300;
+}
+  
+.white {
+  display: flex;
+  justify-content: center; /* Center horizontally within parent */
+  align-items: center; 
+  padding-bottom: 2%;
+}
+
+.white-line {
+  width: 90%;
+  height: 2px; /* Adjust the line height as needed */
+  background-color: #FCEA38;
+}
+  
+
+
+  @media screen and (max-width: 1200px) {
+
+
+    .bullworkspace{
+      max-width: 80%;
+        color: white;
+        text-align: center; /* Left-align the text inside the div */
+        margin: 0 auto;
+        padding-bottom: 5%;
+        
+      }
+      .headtex{
+        text-align: center; /* Left-align the text inside the div */
+      
+      font-size: 30px;
+      margin: 0;
+      padding: 5px;
+      font-weight: 300;
+      }
+
+      .bullworkspac{
+        max-width: 70%;
+          color: white;
+          text-align: center; /* Left-align the text inside the div */
+          margin: 0 auto;
+          padding-bottom: 5%;
+          padding-left: 0%;
+          
+        }
+        .white {
+          display: flex;
+          justify-content: center; /* Center horizontally within parent */
+          align-items: center; 
+          padding-bottom: 5%;
+        }
+      
+    .white-line {
+          width: 90%;
+          height: 2px; /* Adjust the line height as needed */
+          background-color: #FCEA38;
+        }
+
+
+   .headtext{
+    text-align: left; /* Left-align the text inside the div */
+
+   font-size: 20px;
+   margin: 0;
+   padding: 5px;
+}
+    
+  }

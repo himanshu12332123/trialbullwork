@@ -1,0 +1,248 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #181818;
+  font-family: jost;
+}
+
+.aboutheading {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #ececec;
+  font-size: 30px;
+}
+
+.teamheading {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #ececec;
+  font-size: 30px; 
+}
+
+.journerheading {
+  color: #ececec; 
+  font-size: 24px; 
+  padding-top: 8%;
+}
+
+.bullworkcenter{
+  display: flex;
+  align-items: center;
+  height: auto;
+  
+}
+
+.bullworkspace{
+  max-width: 50%;
+    color: white;
+    text-align: center; /* Left-align the text inside the div */
+    margin: 0 auto;
+    padding-bottom: 5%;
+    
+  }
+
+.headtext{
+  font-size: 30px;
+  margin: 0;
+  padding: 5px;
+  font-weight: 300;
+
+}
+.headtex{
+  font-size: 30px;
+  margin: 0;
+  padding: 5px;
+
+}
+
+
+.operationalbox{
+  max-width: 100%;
+  color: white;
+  text-align: left; 
+  padding-bottom: 5%;
+  margin-left: 10%;
+}
+
+
+  .aboutuscontainer{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1%;
+    max-width: 80%;
+
+    }
+    .aboutusimage{
+      text-align: center;
+      padding-bottom: 1%;
+  
+      }
+
+    .aboutus{
+      width: 100%;
+    }
+
+    .milestonecontainer{
+
+        text-align: center;
+        padding-bottom: 8%;
+      
+
+        }
+        .milestone_phone{
+
+          text-align: center;
+          padding-bottom: 8%;
+          display:none;
+  
+          }
+        .milestone{
+          width: 80%;
+        }
+        .aboutusmobile{
+          display:none;
+
+        }
+        .oximage {
+          max-width: 100%;
+          height: 50%;
+          width: 20%;
+          padding-top: 5%;
+        }
+
+        .box-image {
+          max-width: 100%;
+          height: 100%;
+          width: 50%;
+          padding-bottom: 2%;
+        }
+        
+        .imagetext{
+          color: #ececec;
+          padding: 0%;
+          font-size: 30px;
+        }
+
+        .imagetex{
+          color: #ececec;
+          padding: 0%;
+          font-size: 20px;
+        }
+
+        .phonescreen{
+          display:none;
+        }
+      
+      .mainscreen{
+          display:block;
+          padding-top: 2%;
+          padding-bottom: 5%;
+        }
+
+        .white {
+          display: flex;
+          justify-content: center; /* Center horizontally within parent */
+          align-items: center; 
+          padding-bottom: 5%;
+        }
+      
+    .white-line {
+          width: 90%;
+          height: 2px; /* Adjust the line height as needed */
+          background-color: #FCEA38;
+        }
+
+        
+          @media screen and (max-width: 1200px) {
+            .aboutusimage,
+            .milestonecontainer{
+
+              text-align: center;
+              padding-bottom: 8%;
+              display:none;
+      
+              }
+
+
+
+              .white {
+                display: flex;
+                justify-content: center; /* Center horizontally within parent */
+                align-items: center; 
+                padding-bottom: 5%;
+              }
+            
+          .white-line {
+                width: 90%;
+                height: 2px; /* Adjust the line height as needed */
+                background-color: #FCEA38;
+              }
+            .milestone_phone{
+
+              text-align: center;
+              padding-bottom: 8%;
+              display:block;
+
+      
+              }
+              .phone_milestone{
+                width: 90%;
+              }
+              .aboutusmobile{
+                display:block;
+      
+              }
+            
+                .aboutus_mobile{
+                  width: 100%;
+                }
+
+                .phonescreen{
+                  display:block;
+                }
+            
+            .mainscreen{
+                  display:none;
+                }
+
+                .box-image {
+                 height: 80px;
+                 width: 80px;
+                }
+            
+            .imagetext{
+                  color: #ececec;
+                  font-size: 20px;
+                }
+
+                .imagetex{
+                  color: #ececec;
+                  font-size: 15px;
+                  padding-bottom: 10%;
+                }
+                .oximage {
+                  max-width: 100%;
+                  width: 30%;
+                  padding-bottom: 2%;
+                  padding-top: 10%;
+            
+                }
+
+                .headtext{
+                  font-size: 20px;
+                  margin: 0;
+                  padding: 5px;
+                  font-weight: 300;
+
+                }
+                .headtex{
+                  font-size: 20px;
+                  margin: 0;
+                  padding: 5px;
+
+                }
+
+          }
